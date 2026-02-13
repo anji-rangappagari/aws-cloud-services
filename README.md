@@ -79,4 +79,11 @@ sometimes errors might occur when you run  this command that no space left on de
 -  sudo apt install cloud-guest-utils
 -  sudo growpart /dev/xvda 1
 - sudo resize2fs /dev/xvda1
+- 
+**DOCKER Life Cycle**
+- create Dockerfile
+- Image
+- Containerize application
+These all these must coordinate with developer  and devops team
+
 
