@@ -34,9 +34,8 @@ Authorozation is nothing but user/group must have certain roles/polices must be 
 - Downloads $  ssh -i devops-demo.pem ubuntu@pulic ip 
 
 
-Install Docker: On this machine
-Search Docker Install
-https://docs.docker.com/engine/install/ubuntu/
-Add Ubuntu user to the docker group
-sudo usermod -aG docker ubuntu --> Now you should be able to run docker ps without sudo
+**Install Docker: On this machine**
+- Search Docker Install  https://docs.docker.com/engine/install/ubuntu/
+- Add Ubuntu user to the docker group
+- sudo usermod -aG docker ubuntu --> Now you should be able to run docker ps without sudo
 
