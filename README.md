@@ -88,4 +88,7 @@ http://publicip:8080
 - Containerize application
 These all these must coordinate with developer  and devops team
 
-
+**Developer and DevOps collaboration**
+- pick one service that product catalog which written in Go
+- frontend service for Java
+- Recommendation service for python
