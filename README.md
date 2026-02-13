@@ -43,4 +43,8 @@ Authorozation is nothing but user/group must have certain roles/polices must be 
 - kubectl is commanline interface to connect kubernetes cluster i.e how we use awscli to connect aws services
 - search install kubectl
 - https://kubernetes.io/docs/tasks/tools/ select install kubectl on linux
-
+- https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-kubectl-binary-with-curl-on-linux
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+- Download the kubectl checksum file curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+- Validate the kubectl binary against the checksum file:  echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+   
