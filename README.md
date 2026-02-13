@@ -40,5 +40,6 @@ Authorozation is nothing but user/group must have certain roles/polices must be 
 - sudo usermod -aG docker ubuntu --> Now you should be able to run docker ps without sudo
 
 **Install kubectl**
-search install kubectl
+- kubectl is commanline interface to connect kubernetes cluster i.e how we use awscli to connect aws services
+- search install kubectl
 
