@@ -72,4 +72,8 @@ gpg --no-default-keyring \
 - docker compose -h  ( docker compose can run multiple containers)
 - git clone https://github.com/iam-veeramalla/ultimate-devops-project-demo.git
 - docker compose up ( this command will pull all the containerized images of diffrent application services)
-sometimes errors might occur when you run  this command that no space left on device - how do you handle it?
+sometimes errors might occur when you run  this command that no space left on device - how do you handle it? df -h /dev/root
+- navigate EC2 instance --> storage -> volumes -- modify to 30 GiB
+- run these commands to resize the storage  
+-lsblk to check the storage size increase
+-  sudo apt install cloud-guest-utils
