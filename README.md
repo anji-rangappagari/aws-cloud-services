@@ -16,7 +16,7 @@ Authentication is nothing but a user/belongs have access to application/services
 **What is Authorization****
 Authorozation is nothing but user/group must have certain roles/polices must be assigned perform operation like read, write ,update ,detete of any of aws service
 
-**Lauch EC2 Instance**
+**Launch EC2 Instance**
 - Navigate AWS Services
 - Selecvt EC2 Instances 
 - Launch Instance
