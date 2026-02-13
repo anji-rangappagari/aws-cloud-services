@@ -92,3 +92,7 @@ These all these must coordinate with developer  and devops team
 - pick one service that product catalog which written in Go
 - frontend service for Java
 - Recommendation service for python
+
+How to containerize services:
+First verify all dependecies available in dependcy file , if not developer job to write all dependecies based on programming language used for code applications
+
