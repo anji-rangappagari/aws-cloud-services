@@ -69,3 +69,4 @@ gpg --no-default-keyring \
 
 **Section 4 : Run the project locally on EC2 Instance we setup**
 
+- docker compose -h 
