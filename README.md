@@ -71,4 +71,5 @@ gpg --no-default-keyring \
 
 - docker compose -h  ( docker compose can run multiple containers)
 - git clone https://github.com/iam-veeramalla/ultimate-devops-project-demo.git
-- docker compose up
+- docker compose up ( this command will pull all the containerized images of diffrent application services)
+sometimes errors might occur when you run  this command that no space left on device - how do you handle it?
