@@ -67,3 +67,5 @@ gpg --no-default-keyring \
 --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \
 --fingerprint
 
+**Section 4 : Run the project locally on EC2 Instance we setup**
+
