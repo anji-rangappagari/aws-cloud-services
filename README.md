@@ -77,3 +77,6 @@ sometimes errors might occur when you run  this command that no space left on de
 - run these commands to resize the storage  
 -lsblk to check the storage size increase
 -  sudo apt install cloud-guest-utils
+-  sudo growpart /dev/xvda 1
+- sudo resize2fs /dev/xvda1
+
