@@ -53,3 +53,7 @@ install kubctl
 kubectl version --client
 kubectl version
    
+**Terraform Installation**
+search for install terraform - Alway go for official documents on installtion page up to date.
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli 
+linux ubuntu
