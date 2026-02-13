@@ -70,3 +70,5 @@ gpg --no-default-keyring \
 **Section 4 : Run the project locally on EC2 Instance we setup**
 
 - docker compose -h  ( docker compose can run multiple containers)
+- git clone https://github.com/iam-veeramalla/ultimate-devops-project-demo.git
+- docker compose up
